@@ -1,16 +1,15 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EscapeScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public GM gameManager;
 
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
-        
+        if (gameManager.Ending == true)
+        {
+            transform.localPosition = new Vector3(0, 5, 0);
+        }
     }
 }

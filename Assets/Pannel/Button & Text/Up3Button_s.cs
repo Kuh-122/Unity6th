@@ -9,13 +9,13 @@ public class Up3Button_s : MonoBehaviour
     {
         if(gameManager.Gold > gameManager.Up3Cost)
         {
-            gameManager.Gold -= gameManager.Up3Cost;
-            gameManager.GetCrystal += 1;
+            if (gameManager.GetCrystal < 20)
+            {
+                gameManager.Gold -= gameManager.Up3Cost;
+                gameManager.GetCrystal += 1;
 
-            gameManager.Up3Cost += 500;
+                gameManager.Up3Cost += 500;
+            }
         }
     }
-
-    
-
 }

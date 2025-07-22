@@ -7,7 +7,8 @@ public class PrcInfo : MonoBehaviour
 
     private void Update()
     {
-        PrcText.text = $"MoreClickProgress (Max 5): {gameManager.Up2Pr}\n" +
+        PrcText.text =
+            $"MoreClickProgress (Max 5): {gameManager.Up2Pr}\n" +
             $"CrystalProgress (Max 20): {gameManager.GetCrystal}";
     }
 }

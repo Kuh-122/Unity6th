@@ -15,7 +15,7 @@ public class Up2Button_s : MonoBehaviour
                 gameManager.Gold -= gameManager.Up2Cost;
                 gameManager.Up2Pr += 1;
 
-                gameManager.Up2Cost *= 10;
+                gameManager.Up2Cost *= 2;
 
             }
 
