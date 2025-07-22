@@ -1367,6 +1367,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3713423794821276671, guid: b911dd35a5ca4af46be78599412617bf, type: 3}
+      propertyPath: m_text
+      value: 'Ending
+
+        You need 500 Crystal'
+      objectReference: {fileID: 0}
     - target: {fileID: 4463235131909120233, guid: b911dd35a5ca4af46be78599412617bf, type: 3}
       propertyPath: m_Name
       value: Ending
