@@ -1,8 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-// WTF is wrong?
-
 public class Up3Button_s : MonoBehaviour
 {
     public GM gameManager;
@@ -13,6 +11,8 @@ public class Up3Button_s : MonoBehaviour
         {
             gameManager.Gold -= gameManager.Up3Cost;
             gameManager.GetCrystal += 1;
+
+            gameManager.Up3Cost += 500;
         }
     }
 
