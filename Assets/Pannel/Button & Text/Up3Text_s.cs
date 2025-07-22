@@ -8,8 +8,7 @@ public class Up3Text_s : MonoBehaviour
 
     private void Update()
     {
-        PrcText.text = $"GetCrystal: +1%\n" +
-            $"Cost: {gameManager.Up3Cost}";
+        PrcText.text = $"GetCrystal: +1%\n" + $"Cost: {gameManager.Up3Cost}";
     }
 
 }
