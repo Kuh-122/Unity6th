@@ -23,5 +23,6 @@ public class GM : MonoBehaviour
 
     public bool PSound = true; // 효과음 껐다 키기
     public bool shop = false; // 상점
+    public bool Ending = false;
    
 }

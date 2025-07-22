@@ -9,6 +9,7 @@ public class Ending : MonoBehaviour
         if (gameManager.Crystal >= 500)
         {
             gameManager.Crystal -= 500;
+            gameManager.Ending = true;
         }
     }  
 }
