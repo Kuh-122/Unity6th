@@ -448,8 +448,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f48b2308ea1388498bed6be14c22a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
-  PrcText: {fileID: 0}
+  gameManager: {fileID: 6357260246370254639}
+  PrcText: {fileID: 927979634}
+--- !u!114 &927979634 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6577450155665793421, guid: dad40413378f5ba4d9ba8672178bf5d8, type: 3}
+  m_PrefabInstance: {fileID: 2978833361763443305}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927979628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1119838121 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7092933642046277485, guid: dad40413378f5ba4d9ba8672178bf5d8, type: 3}
@@ -570,6 +581,7 @@ RectTransform:
   - {fileID: 1622432033708044566}
   - {fileID: 1453528384}
   - {fileID: 146011969}
+  - {fileID: 1322783006}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -577,6 +589,95 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1322783005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1322783006}
+  - component: {fileID: 1322783009}
+  - component: {fileID: 1322783008}
+  - component: {fileID: 1322783007}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1322783006
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322783005}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1263278301}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -1000}
+  m_SizeDelta: {x: 900, y: 400}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1322783007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322783005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 174b407e04067b048bb29c5ccec066b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 6357260246370254639}
+--- !u!114 &1322783008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322783005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -5680745680097483966, guid: 4f6b34a74639e3c41a04c89f76217605, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1322783009
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322783005}
+  m_CullTransparentMesh: 1
 --- !u!1 &1363947433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1371,7 +1472,7 @@ PrefabInstance:
       propertyPath: m_text
       value: 'Ending
 
-        You need 500 Crystal'
+        You need 300 Crystal'
       objectReference: {fileID: 0}
     - target: {fileID: 4463235131909120233, guid: b911dd35a5ca4af46be78599412617bf, type: 3}
       propertyPath: m_Name
@@ -1865,8 +1966,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cf65d753d43cb84383479547548a489, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gold: 11111000
-  Crystal: 1
+  Gold: 1
+  Crystal: 0
   GetCrystal: 1
   ClickPclick: 1
   GetMoreGold: 1
@@ -1877,6 +1978,7 @@ MonoBehaviour:
   Up3Pr: 0
   PSound: 1
   shop: 0
+  Ending: 0
 --- !u!114 &6385360094759214799
 MonoBehaviour:
   m_ObjectHideFlags: 0
