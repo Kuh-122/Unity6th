@@ -1664,7 +1664,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8449047464579269196, guid: dad40413378f5ba4d9ba8672178bf5d8, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0.9916883
       objectReference: {fileID: 0}
     - target: {fileID: 8449047464579269196, guid: dad40413378f5ba4d9ba8672178bf5d8, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1680,7 +1680,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8449047464579269196, guid: dad40413378f5ba4d9ba8672178bf5d8, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -670.822
+      value: -662.822
       objectReference: {fileID: 0}
     - target: {fileID: 8449047464579269196, guid: dad40413378f5ba4d9ba8672178bf5d8, type: 3}
       propertyPath: m_SizeDelta.y
@@ -1716,7 +1716,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8449047464579269196, guid: dad40413378f5ba4d9ba8672178bf5d8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 313.4261
+      value: 317.4261
       objectReference: {fileID: 0}
     - target: {fileID: 8449047464579269196, guid: dad40413378f5ba4d9ba8672178bf5d8, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1967,7 +1967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Gold: 1
-  Crystal: 0
+  Crystal: 300
   GetCrystal: 1
   ClickPclick: 1
   GetMoreGold: 1

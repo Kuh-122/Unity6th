@@ -3,13 +3,9 @@ using UnityEngine;
 
 public class GM : MonoBehaviour
 {
-    
-    //public GM gameManager; ㅅㅂ
-
     public int Gold = 0; // 소지한 골드
     public int Crystal = 0; // 소지한 크리스탈
     public float GetCrystal = 1; // 크리스탈 확률
-  //  public float percent = Random.Range(0, 100);
 
     public int ClickPclick = 0; // 추가 클릭
     public int GetMoreGold = 1; // 흭득 골드량 증가
