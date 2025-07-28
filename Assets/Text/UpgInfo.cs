@@ -9,8 +9,8 @@ public class UpgInfo : MonoBehaviour
     void Update()
     {
         UpgText.text = $"Get Gold: {gameManager.GetMoreGold}\n" +
-            $"Get Crystal: {gameManager.GetCrystal} \n" +
-            $"Plus Clicks: {gameManager.ClickPclick }"
+            $"Get Crystal: {gameManager.GetCrystal} \n" 
+          
         ;
     }
 }
